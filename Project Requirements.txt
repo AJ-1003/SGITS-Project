@@ -1,0 +1,34 @@
+Project Brief:
+
+Using the following Tech Stack:
+- .Net Core REST API in C#
+- MS SQL Database for persisting Data (Can be InMemory/Express/Etc)
+- Entity Framework for Querying and Manipulating data
+- Swagger/Postman for Testing
+- JSON for passing data to and from the API Endpoints
+ 
+Please will you create a basic CRUD Api for maintaining family information per household.
+
+The API needs to have the following functionality:
+- Get all houses
+- Add/Edit/Remove House
+- Add/Remove Family member to/from House
+- Edit House Family Members
+- Assign Family member as either House Owner or Dependent of Owner
+- Get All family Members By House
+- Get Household Report (Must use SQL procedure below to return data)
+ 
+SQL Procedure/Script:
+Please create a separate SQL Procedure on your database that takes the Owner Identifier as a Parameter, and returns the following fields:
+- House Address
+- Owner Name and Surname (in one field)
+- Owner Contact Number
+- Total Number of Dependants
+
+Guidelines:
+- Please create a personal account on Github and upload your code there, send us the URL to clone your project on submission.
+- Please include a ReadMe file with all instructions/scripts to get your code running.
+- Please include either a Swagger Endpoint or a Postman Collection for hitting your API.
+- The API does not require authentication.
+- You may (and are encouraged to) use an online template for scaffolding the base of your API.
+- If you can demonstrate a Repository Coding Pattern (using interfaces), this will be beneficial.
