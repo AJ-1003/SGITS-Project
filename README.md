@@ -29,6 +29,7 @@ Step 4:
   - Use the following command: update-database
 - This will create the database with the latest migrations on the server specified in the "DefaultConnectionString"
 - It will also create the required stored procedure for the 'Household Report'
+  - A separate API Endpoint has been created to call the stored procedure and return the data in Swagger
 
 Step 5:
 - Run application (F5)
